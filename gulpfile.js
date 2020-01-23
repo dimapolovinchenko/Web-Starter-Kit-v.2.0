@@ -44,7 +44,7 @@ gulp.task('styles', function() {
 gulp.task('scripts', function() {
 	return gulp.src([
 		'node_modules/jquery/dist/jquery.slim.min.js', // Jquery
-		'node_modules/bootstrap/dist/js/popper.min.js', // Bootstrap Js
+		'app/js/_popper.min.js', // Bootstrap Js
 		'node_modules/bootstrap/dist/js/bootstrap.min.js', // Bootstrap Js
 		'app/js/_lazyload.js', // Lazy load
 		'app/js/_custom.js', // Custom scripts. Always at the end
